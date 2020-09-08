@@ -1,0 +1,13 @@
+<html>
+    <frameset rows="275,*"> <!-- frame is used instead of body -->
+        <frame name="heading" src="heading.html" scrolling=no noresize=noresize>
+            <frameset cols="275,*">
+                <frame name="menu" src="menu.html">
+                <frame name="main" src="https://www.desmos.com/calculator/uxrro8wr7a?embed" style="border: 1px solid #ccc" frameborder=0> <!-- copied from the share option of the Desmos graph -->
+            </frameset>
+            <noframes>
+                <body>Sorry, your browser does not support frame.</body>
+            </noframes>
+        </frame>
+    </frameset>
+</html>
